@@ -1,0 +1,30 @@
+GLOBO TERRESTRE 3D - PYVISTA
+============================
+
+1. Abra o Prompt de Comando na pasta deste projeto.
+
+2. Instale a dependência:
+   py -m pip install --upgrade pip
+   py -m pip install -r requirements.txt
+
+3. Execute:
+   py globo_terrestre.py
+
+Na primeira execução, é necessária uma conexão com a internet para que o
+PyVista baixe a malha 3D e a textura do planeta. O PyVista guarda esses dados
+em cache; nas execuções seguintes, normalmente não será necessário baixá-los
+novamente.
+
+CONTROLES DA JANELA 3D
+---------------------
+- Botão esquerdo + arrastar: girar o globo.
+- Roda do mouse: aproximar ou afastar.
+- Botão direito + arrastar: deslocar a visualização.
+- Tecla R: voltar à posição inicial da câmera.
+- Fechar a janela: encerrar o programa.
+
+REQUISITOS
+----------
+- Python compatível com a versão instalada do PyVista.
+- PyVista (o VTK é instalado como dependência do PyVista).
+- Driver gráfico atualizado.
